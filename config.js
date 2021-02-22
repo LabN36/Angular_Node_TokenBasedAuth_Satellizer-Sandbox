@@ -1,6 +1,6 @@
 module.exports = {
   // App Settings
-  MONGO_URI: process.env.MONGO_URI || 'mongodb://test:test@ds049744.mlab.com:49744/github', //'localhost',
+  MONGO_URI: process.env.MONGO_URI || 'localhost:27017/auth',
   TOKEN_SECRET: process.env.TOKEN_SECRET || 'YOUR_UNIQUE_JWT_TOKEN_SECRET',
 // mongodb://<dbuser>:<dbpassword>@ds019980.mlab.com:19980/ipl16
   // OAuth 2.0
